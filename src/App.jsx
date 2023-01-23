@@ -54,7 +54,7 @@ export default function Todo() {
         <Toggle value={darktheme} handleChange={setDarkTheme} />
       </nav>
       <div className="bg-neutral-900 h-screen flex justify-center items-center flex-col font-press-start text-slate-300">
-        <h1 className="text-6xl">Todo App</h1>
+        <h1 className="text-6xl text-center">Todo App</h1>
         <div className="mt-7 flex flex-col justify-center items-center gap-3">
           <input
             type="text"
